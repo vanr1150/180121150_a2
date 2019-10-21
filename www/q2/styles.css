@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+  color: 	#3b5998;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #8b9dc3;
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  color: 	#8b9dc3;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+ul {
+  color: 	#8b9dc3;
+  font-family: "Quicksand", sans-serif;
+}
+
+input.Home {
+width: 100%;
+padding: 10px;
+cursor: pointer;
+font-weight: normal;
+font-size: 150%;
+background: #f7f7f7;
+color: #8b9dc3;
+border: 1px solid #f7f7f7;
+border-radius: 10px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+}
+input.Home:hover {
+color: #f7f7f7;
+background: #3b5998;
+border: 1px solid #fff;
+}
+
+input.Mathematics {
+      width: 100%;
+      padding: 10px;
+      cursor: pointer;
+      font-weight: normal;
+      font-size: 150%;
+      background: #8b9dc3;
+      color: #f7f7f7;
+      border: 1px solid #8b9dc3;
+      border-radius: 10px;
+      -moz-box-shadow:: 6px 6px 5px #999;
+      -webkit-box-shadow:: 6px 6px 5px #999;
+      box-shadow:: 6px 6px 5px #999;
+      }
+      input.Mathematics:hover {
+      color: #f7f7f7;
+      background: #3b5998;
+      border: 1px solid #fff;
+      }
+
+      input.CS {
+      width: 100%;
+      padding: 10px;
+      cursor: pointer;
+      font-weight: normal;
+      font-size: 150%;
+      background: #8b9dc3;
+      color: #f7f7f7;
+      border: 1px solid #8b9dc3;
+      border-radius: 10px;
+      -moz-box-shadow:: 6px 6px 5px #999;
+      -webkit-box-shadow:: 6px 6px 5px #999;
+      box-shadow:: 6px 6px 5px #999;
+      }
+      input.CS:hover {
+      color: #f7f7f7;
+      background: #3b5998;
+      border: 1px solid #fff;
+      }

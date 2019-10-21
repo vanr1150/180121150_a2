@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Slide 1 -->
+				<section>
+					<img src="img/laz.jpeg" alt="Lazaridis" width="620" height="400">
+				</section>
+
+				<!-- Slide 2 -->
+				<section>
+					<section data-background="img/laz.jpeg">
+						<h2> Bachelor of Business Administration</h2>
+							<p>In the Lazaridis School of Business and Economics, you’ll learn to work in teams
+								tackling real-world problems that exist in society and in business. Our Bachelor
+								of Business Administration (BBA) program is full time and direct entry, which
+								means your business education begins on day one. You'll build a solid foundation
+								and become a well-rounded business graduate, as well as a specialist in your area
+								of focus by choosing one of ten business concentrations.</p>
+				</section>
+
+				<!-- Slide 3 -->
+				<section data-background-video="video/bba.mov" data-background-color="#000000">
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
